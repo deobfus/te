@@ -1,8 +1,6 @@
 ---
 title: "Interactive Math Lesson"
-format: html
-filters:
-  - live
+format: live-html
 ---
 
 ## Practice Problem
