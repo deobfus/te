@@ -1,0 +1,27 @@
+---
+title: "Welcome to Interactive Math"
+subtitle: "Master math concepts at your own pace with endless practice problems."
+page-layout: full
+---
+
+## Getting Started
+
+Welcome! This website is designed to give you complete control over your learning. Every lesson features dynamic problems that change numbers every time you refresh or click a button, giving you infinite opportunities to practice.
+
+::: {.callout-tip}
+### How to use this site
+1. Select a lesson from the top navigation bar.
+2. Read the concept overview.
+3. Use the interactive sliders to see how math graphs change in real-time.
+4. Try the practice problems and type your answers into the check-boxes to test your understanding.
+:::
+
+---
+
+## Quick Math Warm-Up
+
+Test your mental math before diving into the lessons. Change the multiplier below to see how the sequence changes!
+
+```{ojs}
+//| echo: false
+viewof factor = html`<input type="range" min="1" max="12" value="5" step="1">`
