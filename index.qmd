@@ -8,6 +8,8 @@ page-layout: full
 
 Test $f(x) = \frac{1}{x}$
 
+Test 2 $g(x)= 3f(x)$
+
 Welcome! This website is designed to give you complete control over your learning. Every lesson features dynamic problems that change numbers every time you refresh or click a button, giving you infinite opportunities to practice.
 
 ::: {.callout-tip}
