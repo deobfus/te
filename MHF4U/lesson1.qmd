@@ -1,0 +1,14 @@
+---
+title: "Interactive Math Lesson"
+format: html
+filters:
+  - live
+---
+
+## Practice Problem
+
+Change the slider below to generate a new problem dynamically!
+
+```{ojs}
+//| echo: false
+viewof coefficient = html`<input type="range" min="1" max="10" step="1">`
