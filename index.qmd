@@ -2,7 +2,8 @@
 title: "Welcome to Interactive Math"
 subtitle: "Master math concepts at your own pace with endless practice problems."
 page-layout: full
-
+filters:
+  - gradio
 
 ---
 
@@ -39,4 +40,23 @@ $f(x) = \frac34$
 x = 5
 y = 6
 print(x+y)
+```
+
+$hello$
+
+```{python}
+import gradio as gr
+
+def greet(name):
+    return f"Hello {name}!"
+
+
+demo = gr.Interface(
+    fn=greet,
+    inputs="textbox",
+    outputs="textbox",
+    live=True
+)
+
+demo.launch()
 ```
