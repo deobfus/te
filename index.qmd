@@ -33,3 +33,10 @@ Test your mental math before diving into the lessons. Change the multiplier belo
 viewof factor = html`<input type="range" min="1" max="12" value="5" step="1">`
 ```
 
+$f(x) = \frac34$
+
+{python}
+x = 5
+y = 6
+print(x+y)
+```
