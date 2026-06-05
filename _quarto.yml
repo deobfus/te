@@ -1,18 +1,12 @@
 project:
   type: website
+  output-dir: _site
 
 website:
-  title: "Interactive Math Space"
-  navbar:
-    background: primary
-    left:
-      - href: index.qmd
-        text: Home
-      - href: walkthrough.qmd
-        text: "Testing the Site"
+  title: "Math Lesson Bank"
+  description: "Interactive math lessons and coding playgrounds."
 
 format:
   html:
     theme: cosmo
-    css: styles.css
     toc: true
