@@ -44,15 +44,3 @@ print(x+y)
 ```
 
 $hello$
-
-```{python}
-#| gr-playground: true
-#| gr-layout: vertical
-import gradio as gr
-
-gr.Interface(
-    fn=lambda name: f"Hi {name}!",
-    inputs="textbox",
-    outputs="textbox"
-).launch()
-```
