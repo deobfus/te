@@ -1,17 +1,19 @@
 {
-  "name": "Quarto Math Environment",
-  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "name": "Math Lesson Bank",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {
+        "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/python:1": {
+        "version": "latest"
+    }
+  },
   "customizations": {
     "vscode": {
       "extensions": [
-        "quarto.quarto",
-        "ms-python.python",
-        "ms-toolsai.jupyter"
-      ],
-      "settings": {
-        "quarto.visualEditor.view.mode": "visual"
-      }
+        "quarto.quarto"
+      ]
     }
-  },
-  "postCreateCommand": "wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.6.1/quarto-1.6.1-linux-amd64.deb && sudo dpkg -i quarto-1.6.1-linux-amd64.deb && rm quarto-1.6.1-linux-amd64.deb && pip install pyyaml nbformat nbclient"
+  }
 }
