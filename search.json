@@ -18,6 +18,6 @@
     "href": "index.html#quick-math-warm-up",
     "title": "Welcome to Interactive Math",
     "section": "Quick Math Warm-Up",
-    "text": "Quick Math Warm-Up\nTest your mental math before diving into the lessons. Change the multiplier below to see how the sequence changes!\n\nviewof factor = html`&lt;input type=\"range\" min=\"1\" max=\"12\" value=\"5\" step=\"1\"&gt;`\n\n\n\n\n\n\n\\(f(x) = \\frac34\\)\n{python} x = 5 y = 6 print(x+y) ```"
+    "text": "Quick Math Warm-Up\nTest your mental math before diving into the lessons. Change the multiplier below to see how the sequence changes!\n\nviewof factor = html`&lt;input type=\"range\" min=\"1\" max=\"12\" value=\"5\" step=\"1\"&gt;`\n\n\n\n\n\n\n\\(f(x) = \\frac34\\)\n\nx = 5\ny = 6\nprint(x+y)\n\n11"
   }
 ]
