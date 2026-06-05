@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "MHF4U/lesson1.html",
-    "href": "MHF4U/lesson1.html",
-    "title": "Interactive Math Lesson",
-    "section": "",
-    "text": "Change the slider below to generate a new problem dynamically!\n//| echo: false viewof coefficient = html&lt;input type=\"range\" min=\"1\" max=\"10\" step=\"1\"&gt;"
-  },
-  {
-    "objectID": "MHF4U/lesson1.html#practice-problem",
-    "href": "MHF4U/lesson1.html#practice-problem",
-    "title": "Interactive Math Lesson",
-    "section": "",
-    "text": "Change the slider below to generate a new problem dynamically!\n//| echo: false viewof coefficient = html&lt;input type=\"range\" min=\"1\" max=\"10\" step=\"1\"&gt;"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome to Interactive Math",
