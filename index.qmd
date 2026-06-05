@@ -7,6 +7,7 @@ filters:
 
 ---
 
+
 ## Getting Started
 
 Test $f(x) = \frac{1}{x}$
@@ -45,18 +46,13 @@ print(x+y)
 $hello$
 
 ```{python}
+#| gr-playground: true
+#| gr-layout: vertical
 import gradio as gr
 
-def greet(name):
-    return f"Hello {name}!"
-
-
-demo = gr.Interface(
-    fn=greet,
+gr.Interface(
+    fn=lambda name: f"Hi {name}!",
     inputs="textbox",
-    outputs="textbox",
-    live=True
-)
-
-demo.launch()
+    outputs="textbox"
+).launch()
 ```
