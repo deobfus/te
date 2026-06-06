@@ -12,11 +12,28 @@ website:
     background: primary
     search: true
     left:
-      - text: "home"
-        href: index.qmd
-      - text: "courses"
+      - text: "grade 9"
         menu:
           - href: MTH1W/index.qmd
+          - href: MAT1L2L/index.qmd
+      - text: "grade 10"
+        menu:
+          - href: MTH2D/index.qmd
+          - href: MAT1L2L/index.qmd
+      - text: "grade 11"
+        menu:
+          - href: MCR3U/index.qmd
+          - href: MCF4M/index.qmd
+          - href: MBF3C/index.qmd
+          - href: MEL3E/index.qmd
+      - text: "grade 12"
+        menu:
+          - href: MDM4U/index.qmd
+          - href: MHF4U/index.qmd
+          - href: MCV4U/index.qmd
+          - href: MAP4C/index.qmd
+          - href: MCT4C/index.qmd
+          - href: MEL4E/index.qmd
   
 
 format:
