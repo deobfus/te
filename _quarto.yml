@@ -34,7 +34,9 @@ website:
           - href: MAP4C/index.qmd
           - href: MCT4C/index.qmd
           - href: MEL4E/index.qmd
-  
+  sidebar:
+    style: floating
+    contents: /*
 
 format:
   html:
