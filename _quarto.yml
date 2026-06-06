@@ -6,8 +6,18 @@ execute:
   freeze: auto
 
 website:
-  title: "Math Lesson Bank"
-  description: "Interactive math lessons and coding playgrounds."
+  title: "OBFUS.CA/TE"
+  description: "Online Bank for Understanding Statistics, Caclulus, & Algebra:  Teenager Edition"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "home"
+        href: index.qmd
+      - text: "courses"
+        menu:
+          - href: MTH1W/index.qmd
+  
 
 format:
   html:
