@@ -7,7 +7,7 @@ page-layout: full
 
 ## WHAT, DO?
 
-Bienvenu! Before you is a resource for students, teachers, and parents. Its goals are:
+Bienvenue! Before you is a resource for students, teachers, and parents. Its goals are:
 
 - self-directed and guided lessons to learn high school math
 - rich in media and interactive content
