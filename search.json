@@ -1,23 +1,23 @@
 [
   {
+    "objectID": "MTH1W/index.html#course-outline",
+    "href": "MTH1W/index.html#course-outline",
+    "title": "MTH1W",
+    "section": "Course Outline",
+    "text": "Course Outline"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to Interactive Math",
+    "title": "OBFUS.CA/TE",
     "section": "",
-    "text": "Test \\(f(x) = \\frac{1}{x}\\)\nTest 2 \\(g(x)= 3f(x)\\)\nWelcome! This website is designed to give you complete control over your learning. Every lesson features dynamic problems that change numbers every time you refresh or click a button, giving you infinite opportunities to practice.\n\n\n\n\n\n\nTipHow to use this site\n\n\n\n\nSelect a lesson from the top navigation bar.\nRead the concept overview.\nUse the interactive sliders to see how math graphs change in real-time.\nTry the practice problems and type your answers into the check-boxes to test your understanding."
+    "text": "Bienvenu! Before you is a resource for students, teachers, and parents. Its goals are:\n\nself-directed and guided lessons to learn high school math\nrich in media and interactive content\na record of math culture in high school\n\n\n\n\n\n\n\nTipHow to use this site\n\n\n\n\nSelect a course from the top navigation bar or search for a topic.\nEach page is a story to follow and learn.\nInteract with the displayed content on some pages.\nTry the consolidation problems, further practice, and view foundational, building block, and connection questions for each course."
   },
   {
-    "objectID": "index.html#getting-started",
-    "href": "index.html#getting-started",
-    "title": "Welcome to Interactive Math",
+    "objectID": "index.html#what-do",
+    "href": "index.html#what-do",
+    "title": "OBFUS.CA/TE",
     "section": "",
-    "text": "Test \\(f(x) = \\frac{1}{x}\\)\nTest 2 \\(g(x)= 3f(x)\\)\nWelcome! This website is designed to give you complete control over your learning. Every lesson features dynamic problems that change numbers every time you refresh or click a button, giving you infinite opportunities to practice.\n\n\n\n\n\n\nTipHow to use this site\n\n\n\n\nSelect a lesson from the top navigation bar.\nRead the concept overview.\nUse the interactive sliders to see how math graphs change in real-time.\nTry the practice problems and type your answers into the check-boxes to test your understanding."
-  },
-  {
-    "objectID": "index.html#quick-math-warm-up",
-    "href": "index.html#quick-math-warm-up",
-    "title": "Welcome to Interactive Math",
-    "section": "Quick Math Warm-Up",
-    "text": "Quick Math Warm-Up\nTest your mental math before diving into the lessons. Change the multiplier below to see how the sequence changes!\n\nviewof factor = html`&lt;input type=\"range\" min=\"1\" max=\"12\" value=\"5\" step=\"1\"&gt;`\n\n\n\n\n\n\n\\(f(x) = \\frac34\\)\n\nx = 5\ny = 6\nprint(x+y)\n\n11\n\n\n\\(hello\\)"
+    "text": "Bienvenu! Before you is a resource for students, teachers, and parents. Its goals are:\n\nself-directed and guided lessons to learn high school math\nrich in media and interactive content\na record of math culture in high school\n\n\n\n\n\n\n\nTipHow to use this site\n\n\n\n\nSelect a course from the top navigation bar or search for a topic.\nEach page is a story to follow and learn.\nInteract with the displayed content on some pages.\nTry the consolidation problems, further practice, and view foundational, building block, and connection questions for each course."
   }
 ]
