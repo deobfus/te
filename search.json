@@ -4,14 +4,21 @@
     "href": "MTH1W/index.html#course-outline",
     "title": "MTH1W",
     "section": "Course Outline",
-    "text": "Course Outline"
+    "text": "Course Outline\n\nCycle 1: How do we Represent ideas?\n\nLesson 1-0\nLesson 1-1\nLesson 1-2: This is a Course about Algebra",
+    "crumbs": [
+      "MTH1W"
+    ]
   },
   {
     "objectID": "MTH1W/MTH1W 1-2.html#equations",
     "href": "MTH1W/MTH1W 1-2.html#equations",
     "title": "MTH1W Lesson 1-2",
     "section": "Equations",
-    "text": "Equations\n\nSimplifying\n\n\nSolving"
+    "text": "Equations\n\nSimplifying\n\n\nSolving",
+    "crumbs": [
+      "MTH1W",
+      "MTH1W Lesson 1-2"
+    ]
   },
   {
     "objectID": "index.html",
