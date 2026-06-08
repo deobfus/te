@@ -36,8 +36,12 @@ website:
           - href: MEL4E/index.qmd
   
   sidebar:
-    style: floating
-    contents: auto
+    - id: mth1w-sidebar
+      title: "MTH1W Algebra"
+      style: "docked"
+      contents:
+        - MTH1W/index.qmd
+        - MTH1W/Lesson*.qmd
 
 format:
   html:
