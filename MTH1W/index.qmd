@@ -9,3 +9,10 @@ page-layout: full
 
 ## Course Outline
 
+### Cycle 1:  How do we Represent ideas?
+
+* [Lesson 1-0](MTH1W%201-0.qmd)
+* [Lesson 1-1](MTH1W%201-1.qmd)
+* [Lesson 1-2:  This is a Course about Algebra](MTH1W%201-0.qmd)
+
+
