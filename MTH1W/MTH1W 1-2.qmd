@@ -1,0 +1,17 @@
+---
+title: "MTH1W Lesson 1-2"
+subtitle: "This is a Course about Algebra"
+page-layout: full
+
+---
+
+## Expressions
+
+### Simplifying
+
+## Equations
+
+### Simplifying
+
+### Solving
+

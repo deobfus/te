@@ -1,0 +1,9 @@
+---
+title: "MTH1W Lesson 1-0"
+subtitle: "Prerequisite skills for Grade 9 Mathematics"
+page-layout: full
+
+---
+
+## Topics from Grade 6, 7, and 8 that you see again in High School.
+
