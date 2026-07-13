@@ -1,0 +1,120 @@
+---
+title: "OBFUSCATE Math Solution Style Guide"
+subtitle: "Methods of writing clear mathematics as a student"
+author: "Mr. Cluchey"
+date: "2026-06-15"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-title: "Table of Contents"
+    theme: cosmo
+    code-block-bg: true
+---
+
+## Introduction
+
+A style guide is a clear standard for writing, formatting, and presenting.  In this style guide, you are learning about methods of communicating your mathematical solutions across all Ontario secondary school pathways.  Using this structure, you will align yourself with the **Communication** and **Thinking** categories of the Ontario Ministry of Education (and your course's) Achievement Chart.  An exemplary mathematical solution does not only state a final answer. Instead, it must clearly and logically communicate the narrative of how that answer was derived which we call "showing your work".
+
+### Big Ideas
+
+* Convention (Format)
+* Readability (Story)
+* No Ambiguity (Clarity)
+
+## 1. Format & Layout
+
+A solution should have visual clarity, the benefits of which are:
+* easier for you, the student, to read, reference, and understand your past self
+* easier for your teacher to make an accurate assessment of your learner
+
+Most solutions should be designed to be read down the page vertically and **not** across the page horizontally.
+
+
+::: {.list-table}
+
+- - Goal
+  - Example
+
+- - **Vertical Alignment** (Colour added for emphasis)
+
+    **One $=$ Per Line**
+  - \begin{align*} 
+  & {\color{blue}3x}(3-2x) + 4x {\color{green}- 3}(x^2+1) \\
+  &= {\color{blue}9x - 6x^2} + 4x {\color{green} - 3x^2 + 3} \\ 
+  &= {\color{blue}6x^2} {\color{green}- 3x^2} {\color{blue}+9x} +4x {\color{green} + 3} \\ 
+  &= 3x^2 +13x +3 
+  \end{align*}
+
+- - *Conluding Statement*
+
+    Provide a declaration (context) of what you found and its significance. Include Units.
+
+  - $\therefore$ The expression $$3x(3-2x) + 4x - 3(x^2+1)$$ simplifies to $$3x^2 +13x +3$$
+
+:::
+    
+::: {.callout-warning appearance="simple"}
+**Avoid One Line or Strung together Algebra:** $$3x + 2 = 11 = 3x = 9 = x = 3$$
+:::
+
+### Why do we ask students for this?
+
+* **Vertical Stacking of Equals Signs:** When altering or simplifying equations, vertically stacking equals signs shows change over time, like you are telling a story about a sequence of events in someone's life.
+* **Concluding Statement ($\therefore$):** This is often the first place a teacher will check for your understanding of the problem. We ask, "Does my student understand what was said in the problem by how they have offically answered the question asked?". You do not need to give a Concluding Statement if no question is asked.
+
+## 2. Telling A Story Without Guesswork
+
+Variables and formulas should never appear without introduction. Teachers should never have to guess at what you mean and if something, such as a variable, can have multiple meanings, you must structure your work to remove this "ambiguity".
+
+### Variable Definition ("Let" Statements)
+Declare the variables you are using and their measurement.
+
+::: {.callout-note}
+## Example of Proper Variable Declaration
+Let $C$ represent the total cost of the rental, in dollars (\$).  
+Let $h$ represent the total duration of the rental, in hours (hr).
+:::
+
+### Formula Declaration
+Always state the baseline, un-substituted formula or theorem you are about to use before inserting numerical values. This is done for convention but aids in your readability (communication) and your ability to correct your work if something goes wrong.
+
+* **Correct Practice:** State $A = \pi r^2$ before substituting $r = 5$.
+* **Correct Practice:** State $c^2 = a^2 + b^2$ before substituting side lengths.
+
+## 3. Mathematical Notation Standards
+
+The following are standard expectations for all students Grades 9 through 12:
+
+* **Fractions vs. Decimals:** Decimals used for specific problems including financial literacy, measurement applications, and data management. For most uses you are asked to use reduced improper fractions. In Grades 11 and 12, exact values (rational numbers or exact radicals) are expected to be used after they are learned.
+* **Radical and Pi ($\pi$) Preservation:** Leave pi ($\pi$) and radicals as symbolic constants through all intermediate steps. Do not convert them into rounded decimal approximations until the absolute final step, and only if a decimal is needed.
+    $$\sqrt{18} = \sqrt{9 \times 2} = 3\sqrt{2}$$
+* **Distribution/FOIL Instructional Indicators:** Distribution arrows or "rainbow arcs" used during expanding operations are considered rough work. They should not appear on final polished solutions but most teachers will allow them to be shown anyway.
+
+## 4. Exemplary Solution Walkthrough
+
+
+## 5. Quick-Reference Style Matrix
+
+Teachers and students should utilize this quick matrix to assess alignment with Ontario expectations prior to assignment finalization.
+
+| Core Element | Mandated Standards (What to DO) | Prohibited Formats (What to AVOID) |
+| :--- | :--- | :--- |
+| **The Equals Sign** | Stack them perfectly in a vertical arrangement down the page. | String multiple steps together horizontally across a single line. |
+| **Negative Signs** | Position negative signs directly inline with the fractional division bar ($-\frac{3}{4}$). | Allow negative signs to float ambiguously or remain unresolved in denominators ($\frac{3}{-4}$). |
+| **Rounding** | Retain values in their exact form until the absolute final calculation step. | Round intermediate lines, causing an aggregate rounding drift in solutions. |
+| **Contextual Units** | Integrate standard units (e.g., $\text{cm}^2$, $\text{m/s}$, \$) clearly within the final conclusion statement. | Clutter algebraic operational lines with descriptive units. |
+| **Isolated Variables** | Conclude expressions with the isolated variable on the left-hand side (e.g., $x = 12$). | Leave arithmetic expressions hanging without a matching left side. |
+
+## 6. Pathway-Specific Operational Expectations
+
+### Grade 9 De-streamed (MTH1W) & Grade 10 Academic (MPM2D)
+Students are expected to show foundational equations explicitly. When using inverse operations to isolate a variable, showing balancing steps on both sides is encouraged in early Grade 9, but must naturally transition to clean algebraic transitions by the conclusion of Grade 10.
+
+### Grades 11 & 12 Senior Pathways (MCR3U, MCV4U, MDM4U)
+Strict functional notation is expected. Writing generic "$y =$" variables will be replaced in most cases with clear function assignments like $f(x)$ or $g(x)$. 
+
+::: {.callout-important}
+## Calculus (MCV4U) Specific Notation Rule
+Distinct notation differentiating the base function $f(x)$, the first derivative $f'(x)$, and the secondary derivative $f''(x)$ is expected on every single progressive row of optimizations, limits, or curve-sketching proofs. Leibniz's notation may be used depending on your instructor.
+:::

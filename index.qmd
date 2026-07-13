@@ -5,6 +5,11 @@ page-layout: full
 
 ---
 
+::: {.callout-caution}
+### New Articles!
+* [OBFUSCATE Style Guide](style.qmd)
+:::
+
 ## WHAT, DO?
 
 Bienvenue! Before you is a resource for students, teachers, and parents. Its goals are:
