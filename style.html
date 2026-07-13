@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Mr.&nbsp;Cluchey">
+<meta name="dcterms.date" content="2026-06-15">
 
-<title>MTH1W Lesson 1-0 – OBFUS.CA/TE</title>
+<title>OBFUSCATE Math Solution Style Guide – OBFUS.CA/TE</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,23 +28,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-18abad130b872bb7306e22fe8f947132.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-366cb8ec674e47143b072bc2c76f74d8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,6 +73,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -81,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">OBFUS.CA/TE</span>
     </a>
   </div>
@@ -97,11 +128,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-grade-9">    
         <li>
-    <a class="dropdown-item" href="../MTH1W/index.html">
+    <a class="dropdown-item" href="./MTH1W/index.html">
  <span class="dropdown-text">MTH1W</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../MAT1L2L/index.qmd">
+    <a class="dropdown-item" href="./MAT1L2L/index.qmd">
  <span class="dropdown-text"></span></a>
   </li>  
     </ul>
@@ -112,11 +143,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-grade-10">    
         <li>
-    <a class="dropdown-item" href="../MTH2D/index.qmd">
+    <a class="dropdown-item" href="./MTH2D/index.qmd">
  <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../MAT1L2L/index.qmd">
+    <a class="dropdown-item" href="./MAT1L2L/index.qmd">
  <span class="dropdown-text"></span></a>
   </li>  
     </ul>
@@ -127,19 +158,19 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-grade-11">    
         <li>
-    <a class="dropdown-item" href="../MCR3U/index.qmd">
+    <a class="dropdown-item" href="./MCR3U/index.qmd">
  <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../MCF4M/index.qmd">
+    <a class="dropdown-item" href="./MCF4M/index.qmd">
  <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../MBF3C/index.qmd">
+    <a class="dropdown-item" href="./MBF3C/index.qmd">
  <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../MEL3E/index.qmd">
+    <a class="dropdown-item" href="./MEL3E/index.qmd">
  <span class="dropdown-text"></span></a>
   </li>  
     </ul>
@@ -150,27 +181,27 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-grade-12">    
         <li>
-    <a class="dropdown-item" href="../MDM4U/index.qmd">
+    <a class="dropdown-item" href="./MDM4U/index.qmd">
  <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../MHF4U/index.qmd">
+    <a class="dropdown-item" href="./MHF4U/index.qmd">
  <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../MCV4U/index.qmd">
+    <a class="dropdown-item" href="./MCV4U/index.qmd">
  <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../MAP4C/index.qmd">
+    <a class="dropdown-item" href="./MAP4C/index.qmd">
  <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../MCT4C/index.qmd">
+    <a class="dropdown-item" href="./MCT4C/index.qmd">
  <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../MEL4E/index.qmd">
+    <a class="dropdown-item" href="./MEL4E/index.qmd">
  <span class="dropdown-text"></span></a>
   </li>  
     </ul>
@@ -183,32 +214,64 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Table of Contents</h2>
    
   <ul>
-  <li><a href="#topics-from-grade-6-7-and-8-that-you-see-again-in-high-school." id="toc-topics-from-grade-6-7-and-8-that-you-see-again-in-high-school." class="nav-link active" data-scroll-target="#topics-from-grade-6-7-and-8-that-you-see-again-in-high-school.">Topics from Grade 6, 7, and 8 that you see again in High School.</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
+  <ul class="collapse">
+  <li><a href="#big-ideas" id="toc-big-ideas" class="nav-link" data-scroll-target="#big-ideas">Big Ideas</a></li>
+  </ul></li>
+  <li><a href="#format-layout" id="toc-format-layout" class="nav-link" data-scroll-target="#format-layout">1. Format &amp; Layout</a>
+  <ul class="collapse">
+  <li><a href="#why-do-we-ask-students-for-this" id="toc-why-do-we-ask-students-for-this" class="nav-link" data-scroll-target="#why-do-we-ask-students-for-this">Why do we ask students for this?</a></li>
+  </ul></li>
+  <li><a href="#telling-a-story-without-guesswork" id="toc-telling-a-story-without-guesswork" class="nav-link" data-scroll-target="#telling-a-story-without-guesswork">2. Telling A Story Without Guesswork</a>
+  <ul class="collapse">
+  <li><a href="#variable-definition-let-statements" id="toc-variable-definition-let-statements" class="nav-link" data-scroll-target="#variable-definition-let-statements">Variable Definition (“Let” Statements)</a></li>
+  <li><a href="#formula-declaration" id="toc-formula-declaration" class="nav-link" data-scroll-target="#formula-declaration">Formula Declaration</a></li>
+  </ul></li>
+  <li><a href="#mathematical-notation-standards" id="toc-mathematical-notation-standards" class="nav-link" data-scroll-target="#mathematical-notation-standards">3. Mathematical Notation Standards</a></li>
+  <li><a href="#exemplary-solution-walkthrough" id="toc-exemplary-solution-walkthrough" class="nav-link" data-scroll-target="#exemplary-solution-walkthrough">4. Exemplary Solution Walkthrough</a></li>
+  <li><a href="#quick-reference-style-matrix" id="toc-quick-reference-style-matrix" class="nav-link" data-scroll-target="#quick-reference-style-matrix">5. Quick-Reference Style Matrix</a></li>
+  <li><a href="#pathway-specific-operational-expectations" id="toc-pathway-specific-operational-expectations" class="nav-link" data-scroll-target="#pathway-specific-operational-expectations">6. Pathway-Specific Operational Expectations</a>
+  <ul class="collapse">
+  <li><a href="#grade-9-de-streamed-mth1w-grade-10-academic-mpm2d" id="toc-grade-9-de-streamed-mth1w-grade-10-academic-mpm2d" class="nav-link" data-scroll-target="#grade-9-de-streamed-mth1w-grade-10-academic-mpm2d">Grade 9 De-streamed (MTH1W) &amp; Grade 10 Academic (MPM2D)</a></li>
+  <li><a href="#grades-11-12-senior-pathways-mcr3u-mcv4u-mdm4u" id="toc-grades-11-12-senior-pathways-mcr3u-mcv4u-mdm4u" class="nav-link" data-scroll-target="#grades-11-12-senior-pathways-mcr3u-mcv4u-mdm4u">Grades 11 &amp; 12 Senior Pathways (MCR3U, MCV4U, MDM4U)</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">MTH1W Lesson 1-0</h1>
-<p class="subtitle lead">Prerequisite skills for Grade 9 Mathematics</p>
+<h1 class="title">OBFUSCATE Math Solution Style Guide</h1>
+<p class="subtitle lead">Methods of writing clear mathematics as a student</p>
 </div>
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Mr.&nbsp;Cluchey </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 15, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -218,10 +281,177 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="topics-from-grade-6-7-and-8-that-you-see-again-in-high-school." class="level2">
-<h2 class="anchored" data-anchor-id="topics-from-grade-6-7-and-8-that-you-see-again-in-high-school.">Topics from Grade 6, 7, and 8 that you see again in High School.</h2>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>A style guide is a clear standard for writing, formatting, and presenting. In this style guide, you are learning about methods of communicating your mathematical solutions across all Ontario secondary school pathways. Using this structure, you will align yourself with the <strong>Communication</strong> and <strong>Thinking</strong> categories of the Ontario Ministry of Education (and your course’s) Achievement Chart. An exemplary mathematical solution does not only state a final answer. Instead, it must clearly and logically communicate the narrative of how that answer was derived which we call “showing your work”.</p>
+<section id="big-ideas" class="level3">
+<h3 class="anchored" data-anchor-id="big-ideas">Big Ideas</h3>
+<ul>
+<li>Convention (Format)</li>
+<li>Readability (Story)</li>
+<li>No Ambiguity (Clarity)</li>
+</ul>
+</section>
+</section>
+<section id="format-layout" class="level2">
+<h2 class="anchored" data-anchor-id="format-layout">1. Format &amp; Layout</h2>
+<p>A solution should have visual clarity, the benefits of which are: * easier for you, the student, to read, reference, and understand your past self * easier for your teacher to make an accurate assessment of your learner</p>
+<p>Most solutions should be designed to be read down the page vertically and <strong>not</strong> across the page horizontally.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Goal</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><strong>Vertical Alignment</strong> (Colour added for emphasis)</p>
+<p><strong>One <span class="math inline">\(=\)</span> Per Line</strong></p></td>
+<td><p><span class="math display">\[\begin{align*}
+&amp; {\color{blue}3x}(3-2x) + 4x {\color{green}- 3}(x^2+1) \\
+&amp;= {\color{blue}9x - 6x^2} + 4x {\color{green} - 3x^2 + 3} \\
+&amp;= {\color{blue}6x^2} {\color{green}- 3x^2} {\color{blue}+9x} +4x {\color{green} + 3} \\
+&amp;= 3x^2 +13x +3
+\end{align*}\]</span></p></td>
+</tr>
+<tr class="even">
+<td><p><em>Conluding Statement</em></p>
+<p>Provide a declaration (context) of what you found and its significance. Include Units.</p></td>
+<td><p><span class="math inline">\(\therefore\)</span> The expression <span class="math display">\[3x(3-2x) + 4x - 3(x^2+1)\]</span> simplifies to <span class="math display">\[3x^2 +13x +3\]</span></p></td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Avoid One Line or Strung together Algebra:</strong> <span class="math display">\[3x + 2 = 11 = 3x = 9 = x = 3\]</span></p>
+</div>
+</div>
+</div>
+<section id="why-do-we-ask-students-for-this" class="level3">
+<h3 class="anchored" data-anchor-id="why-do-we-ask-students-for-this">Why do we ask students for this?</h3>
+<ul>
+<li><strong>Vertical Stacking of Equals Signs:</strong> When altering or simplifying equations, vertically stacking equals signs shows change over time, like you are telling a story about a sequence of events in someone’s life.</li>
+<li><strong>Concluding Statement (<span class="math inline">\(\therefore\)</span>):</strong> This is often the first place a teacher will check for your understanding of the problem. We ask, “Does my student understand what was said in the problem by how they have offically answered the question asked?”. You do not need to give a Concluding Statement if no question is asked.</li>
+</ul>
+</section>
+</section>
+<section id="telling-a-story-without-guesswork" class="level2">
+<h2 class="anchored" data-anchor-id="telling-a-story-without-guesswork">2. Telling A Story Without Guesswork</h2>
+<p>Variables and formulas should never appear without introduction. Teachers should never have to guess at what you mean and if something, such as a variable, can have multiple meanings, you must structure your work to remove this “ambiguity”.</p>
+<section id="variable-definition-let-statements" class="level3">
+<h3 class="anchored" data-anchor-id="variable-definition-let-statements">Variable Definition (“Let” Statements)</h3>
+<p>Declare the variables you are using and their measurement.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Example of Proper Variable Declaration
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Let <span class="math inline">\(C\)</span> represent the total cost of the rental, in dollars ($).<br>
+Let <span class="math inline">\(h\)</span> represent the total duration of the rental, in hours (hr).</p>
+</div>
+</div>
+</section>
+<section id="formula-declaration" class="level3">
+<h3 class="anchored" data-anchor-id="formula-declaration">Formula Declaration</h3>
+<p>Always state the baseline, un-substituted formula or theorem you are about to use before inserting numerical values. This is done for convention but aids in your readability (communication) and your ability to correct your work if something goes wrong.</p>
+<ul>
+<li><strong>Correct Practice:</strong> State <span class="math inline">\(A = \pi r^2\)</span> before substituting <span class="math inline">\(r = 5\)</span>.</li>
+<li><strong>Correct Practice:</strong> State <span class="math inline">\(c^2 = a^2 + b^2\)</span> before substituting side lengths.</li>
+</ul>
+</section>
+</section>
+<section id="mathematical-notation-standards" class="level2">
+<h2 class="anchored" data-anchor-id="mathematical-notation-standards">3. Mathematical Notation Standards</h2>
+<p>The following are standard expectations for all students Grades 9 through 12:</p>
+<ul>
+<li><strong>Fractions vs.&nbsp;Decimals:</strong> Decimals used for specific problems including financial literacy, measurement applications, and data management. For most uses you are asked to use reduced improper fractions. In Grades 11 and 12, exact values (rational numbers or exact radicals) are expected to be used after they are learned.</li>
+<li><strong>Radical and Pi (<span class="math inline">\(\pi\)</span>) Preservation:</strong> Leave pi (<span class="math inline">\(\pi\)</span>) and radicals as symbolic constants through all intermediate steps. Do not convert them into rounded decimal approximations until the absolute final step, and only if a decimal is needed. <span class="math display">\[\sqrt{18} = \sqrt{9 \times 2} = 3\sqrt{2}\]</span></li>
+<li><strong>Distribution/FOIL Instructional Indicators:</strong> Distribution arrows or “rainbow arcs” used during expanding operations are considered rough work. They should not appear on final polished solutions but most teachers will allow them to be shown anyway.</li>
+</ul>
+</section>
+<section id="exemplary-solution-walkthrough" class="level2">
+<h2 class="anchored" data-anchor-id="exemplary-solution-walkthrough">4. Exemplary Solution Walkthrough</h2>
+</section>
+<section id="quick-reference-style-matrix" class="level2">
+<h2 class="anchored" data-anchor-id="quick-reference-style-matrix">5. Quick-Reference Style Matrix</h2>
+<p>Teachers and students should utilize this quick matrix to assess alignment with Ontario expectations prior to assignment finalization.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Core Element</th>
+<th style="text-align: left;">Mandated Standards (What to DO)</th>
+<th style="text-align: left;">Prohibited Formats (What to AVOID)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>The Equals Sign</strong></td>
+<td style="text-align: left;">Stack them perfectly in a vertical arrangement down the page.</td>
+<td style="text-align: left;">String multiple steps together horizontally across a single line.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Negative Signs</strong></td>
+<td style="text-align: left;">Position negative signs directly inline with the fractional division bar (<span class="math inline">\(-\frac{3}{4}\)</span>).</td>
+<td style="text-align: left;">Allow negative signs to float ambiguously or remain unresolved in denominators (<span class="math inline">\(\frac{3}{-4}\)</span>).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Rounding</strong></td>
+<td style="text-align: left;">Retain values in their exact form until the absolute final calculation step.</td>
+<td style="text-align: left;">Round intermediate lines, causing an aggregate rounding drift in solutions.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Contextual Units</strong></td>
+<td style="text-align: left;">Integrate standard units (e.g., <span class="math inline">\(\text{cm}^2\)</span>, <span class="math inline">\(\text{m/s}\)</span>, $) clearly within the final conclusion statement.</td>
+<td style="text-align: left;">Clutter algebraic operational lines with descriptive units.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Isolated Variables</strong></td>
+<td style="text-align: left;">Conclude expressions with the isolated variable on the left-hand side (e.g., <span class="math inline">\(x = 12\)</span>).</td>
+<td style="text-align: left;">Leave arithmetic expressions hanging without a matching left side.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="pathway-specific-operational-expectations" class="level2">
+<h2 class="anchored" data-anchor-id="pathway-specific-operational-expectations">6. Pathway-Specific Operational Expectations</h2>
+<section id="grade-9-de-streamed-mth1w-grade-10-academic-mpm2d" class="level3">
+<h3 class="anchored" data-anchor-id="grade-9-de-streamed-mth1w-grade-10-academic-mpm2d">Grade 9 De-streamed (MTH1W) &amp; Grade 10 Academic (MPM2D)</h3>
+<p>Students are expected to show foundational equations explicitly. When using inverse operations to isolate a variable, showing balancing steps on both sides is encouraged in early Grade 9, but must naturally transition to clean algebraic transitions by the conclusion of Grade 10.</p>
+</section>
+<section id="grades-11-12-senior-pathways-mcr3u-mcv4u-mdm4u" class="level3">
+<h3 class="anchored" data-anchor-id="grades-11-12-senior-pathways-mcr3u-mcv4u-mdm4u">Grades 11 &amp; 12 Senior Pathways (MCR3U, MCV4U, MDM4U)</h3>
+<p>Strict functional notation is expected. Writing generic “<span class="math inline">\(y =\)</span>” variables will be replaced in most cases with clear function assignments like <span class="math inline">\(f(x)\)</span> or <span class="math inline">\(g(x)\)</span>.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Calculus (MCV4U) Specific Notation Rule
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Distinct notation differentiating the base function <span class="math inline">\(f(x)\)</span>, the first derivative <span class="math inline">\(f'(x)\)</span>, and the secondary derivative <span class="math inline">\(f''(x)\)</span> is expected on every single progressive row of optimizations, limits, or curve-sketching proofs. Leibniz’s notation may be used depending on your instructor.</p>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -1,13 +1,17 @@
 [
   {
-    "objectID": "MTH1W/index.html#course-outline",
-    "href": "MTH1W/index.html#course-outline",
-    "title": "MTH1W",
-    "section": "Course Outline",
-    "text": "Course Outline\n\nCycle 1: How do we Represent ideas?\n\nLesson 1-0\nLesson 1-1\nLesson 1-2: This is a Course about Algebra",
-    "crumbs": [
-      "MTH1W"
-    ]
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "OBFUS.CA/TE",
+    "section": "",
+    "text": "CautionNew Articles!\n\n\n\n\nOBFUSCATE Style Guide"
+  },
+  {
+    "objectID": "index.html#what-do",
+    "href": "index.html#what-do",
+    "title": "OBFUS.CA/TE",
+    "section": "WHAT, DO?",
+    "text": "WHAT, DO?\nBienvenue! Before you is a resource for students, teachers, and parents. Its goals are:\n\nself-directed and guided lessons to learn high school math\nrich in media and interactive content\na record of math culture in high school\n\n\n\n\n\n\n\nTipHow to use this site\n\n\n\n\nSelect a course from the top navigation bar or search for a topic.\nEach page is a story to follow and learn.\nInteract with the displayed content on some pages.\nTry the consolidation problems, further practice, and view foundational, building block, and connection questions for each course."
   },
   {
     "objectID": "MTH1W/MTH1W 1-2.html#equations",
@@ -17,17 +21,69 @@
     "text": "Equations\n\nSimplifying\n\n\nSolving"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "OBFUS.CA/TE",
+    "objectID": "style.html",
+    "href": "style.html",
+    "title": "OBFUSCATE Math Solution Style Guide",
     "section": "",
-    "text": "Bienvenue! Before you is a resource for students, teachers, and parents. Its goals are:\n\nself-directed and guided lessons to learn high school math\nrich in media and interactive content\na record of math culture in high school\n\n\n\n\n\n\n\nTipHow to use this site\n\n\n\n\nSelect a course from the top navigation bar or search for a topic.\nEach page is a story to follow and learn.\nInteract with the displayed content on some pages.\nTry the consolidation problems, further practice, and view foundational, building block, and connection questions for each course."
+    "text": "A style guide is a clear standard for writing, formatting, and presenting. In this style guide, you are learning about methods of communicating your mathematical solutions across all Ontario secondary school pathways. Using this structure, you will align yourself with the Communication and Thinking categories of the Ontario Ministry of Education (and your course’s) Achievement Chart. An exemplary mathematical solution does not only state a final answer. Instead, it must clearly and logically communicate the narrative of how that answer was derived which we call “showing your work”.\n\n\n\nConvention (Format)\nReadability (Story)\nNo Ambiguity (Clarity)"
   },
   {
-    "objectID": "index.html#what-do",
-    "href": "index.html#what-do",
-    "title": "OBFUS.CA/TE",
+    "objectID": "style.html#introduction",
+    "href": "style.html#introduction",
+    "title": "OBFUSCATE Math Solution Style Guide",
     "section": "",
-    "text": "Bienvenue! Before you is a resource for students, teachers, and parents. Its goals are:\n\nself-directed and guided lessons to learn high school math\nrich in media and interactive content\na record of math culture in high school\n\n\n\n\n\n\n\nTipHow to use this site\n\n\n\n\nSelect a course from the top navigation bar or search for a topic.\nEach page is a story to follow and learn.\nInteract with the displayed content on some pages.\nTry the consolidation problems, further practice, and view foundational, building block, and connection questions for each course."
+    "text": "A style guide is a clear standard for writing, formatting, and presenting. In this style guide, you are learning about methods of communicating your mathematical solutions across all Ontario secondary school pathways. Using this structure, you will align yourself with the Communication and Thinking categories of the Ontario Ministry of Education (and your course’s) Achievement Chart. An exemplary mathematical solution does not only state a final answer. Instead, it must clearly and logically communicate the narrative of how that answer was derived which we call “showing your work”.\n\n\n\nConvention (Format)\nReadability (Story)\nNo Ambiguity (Clarity)"
+  },
+  {
+    "objectID": "style.html#format-layout",
+    "href": "style.html#format-layout",
+    "title": "OBFUSCATE Math Solution Style Guide",
+    "section": "1. Format & Layout",
+    "text": "1. Format & Layout\nA solution should have visual clarity, the benefits of which are: * easier for you, the student, to read, reference, and understand your past self * easier for your teacher to make an accurate assessment of your learner\nMost solutions should be designed to be read down the page vertically and not across the page horizontally.\n\n\n\nGoal\nExample\n\n\n\n\nVertical Alignment (Colour added for emphasis)\nOne \\(=\\) Per Line\n\\[\\begin{align*}\n& {\\color{blue}3x}(3-2x) + 4x {\\color{green}- 3}(x^2+1) \\\\\n&= {\\color{blue}9x - 6x^2} + 4x {\\color{green} - 3x^2 + 3} \\\\\n&= {\\color{blue}6x^2} {\\color{green}- 3x^2} {\\color{blue}+9x} +4x {\\color{green} + 3} \\\\\n&= 3x^2 +13x +3\n\\end{align*}\\]\n\n\nConluding Statement\nProvide a declaration (context) of what you found and its significance. Include Units.\n\\(\\therefore\\) The expression \\[3x(3-2x) + 4x - 3(x^2+1)\\] simplifies to \\[3x^2 +13x +3\\]\n\n\n\n\n\n\n\n\n\nAvoid One Line or Strung together Algebra: \\[3x + 2 = 11 = 3x = 9 = x = 3\\]\n\n\n\n\nWhy do we ask students for this?\n\nVertical Stacking of Equals Signs: When altering or simplifying equations, vertically stacking equals signs shows change over time, like you are telling a story about a sequence of events in someone’s life.\nConcluding Statement (\\(\\therefore\\)): This is often the first place a teacher will check for your understanding of the problem. We ask, “Does my student understand what was said in the problem by how they have offically answered the question asked?”. You do not need to give a Concluding Statement if no question is asked."
+  },
+  {
+    "objectID": "style.html#telling-a-story-without-guesswork",
+    "href": "style.html#telling-a-story-without-guesswork",
+    "title": "OBFUSCATE Math Solution Style Guide",
+    "section": "2. Telling A Story Without Guesswork",
+    "text": "2. Telling A Story Without Guesswork\nVariables and formulas should never appear without introduction. Teachers should never have to guess at what you mean and if something, such as a variable, can have multiple meanings, you must structure your work to remove this “ambiguity”.\n\nVariable Definition (“Let” Statements)\nDeclare the variables you are using and their measurement.\n\n\n\n\n\n\nNoteExample of Proper Variable Declaration\n\n\n\nLet \\(C\\) represent the total cost of the rental, in dollars ($).\nLet \\(h\\) represent the total duration of the rental, in hours (hr).\n\n\n\n\nFormula Declaration\nAlways state the baseline, un-substituted formula or theorem you are about to use before inserting numerical values. This is done for convention but aids in your readability (communication) and your ability to correct your work if something goes wrong.\n\nCorrect Practice: State \\(A = \\pi r^2\\) before substituting \\(r = 5\\).\nCorrect Practice: State \\(c^2 = a^2 + b^2\\) before substituting side lengths."
+  },
+  {
+    "objectID": "style.html#mathematical-notation-standards",
+    "href": "style.html#mathematical-notation-standards",
+    "title": "OBFUSCATE Math Solution Style Guide",
+    "section": "3. Mathematical Notation Standards",
+    "text": "3. Mathematical Notation Standards\nThe following are standard expectations for all students Grades 9 through 12:\n\nFractions vs. Decimals: Decimals used for specific problems including financial literacy, measurement applications, and data management. For most uses you are asked to use reduced improper fractions. In Grades 11 and 12, exact values (rational numbers or exact radicals) are expected to be used after they are learned.\nRadical and Pi (\\(\\pi\\)) Preservation: Leave pi (\\(\\pi\\)) and radicals as symbolic constants through all intermediate steps. Do not convert them into rounded decimal approximations until the absolute final step, and only if a decimal is needed. \\[\\sqrt{18} = \\sqrt{9 \\times 2} = 3\\sqrt{2}\\]\nDistribution/FOIL Instructional Indicators: Distribution arrows or “rainbow arcs” used during expanding operations are considered rough work. They should not appear on final polished solutions but most teachers will allow them to be shown anyway."
+  },
+  {
+    "objectID": "style.html#exemplary-solution-walkthrough",
+    "href": "style.html#exemplary-solution-walkthrough",
+    "title": "OBFUSCATE Math Solution Style Guide",
+    "section": "4. Exemplary Solution Walkthrough",
+    "text": "4. Exemplary Solution Walkthrough"
+  },
+  {
+    "objectID": "style.html#quick-reference-style-matrix",
+    "href": "style.html#quick-reference-style-matrix",
+    "title": "OBFUSCATE Math Solution Style Guide",
+    "section": "5. Quick-Reference Style Matrix",
+    "text": "5. Quick-Reference Style Matrix\nTeachers and students should utilize this quick matrix to assess alignment with Ontario expectations prior to assignment finalization.\n\n\n\n\n\n\n\n\nCore Element\nMandated Standards (What to DO)\nProhibited Formats (What to AVOID)\n\n\n\n\nThe Equals Sign\nStack them perfectly in a vertical arrangement down the page.\nString multiple steps together horizontally across a single line.\n\n\nNegative Signs\nPosition negative signs directly inline with the fractional division bar (\\(-\\frac{3}{4}\\)).\nAllow negative signs to float ambiguously or remain unresolved in denominators (\\(\\frac{3}{-4}\\)).\n\n\nRounding\nRetain values in their exact form until the absolute final calculation step.\nRound intermediate lines, causing an aggregate rounding drift in solutions.\n\n\nContextual Units\nIntegrate standard units (e.g., \\(\\text{cm}^2\\), \\(\\text{m/s}\\), $) clearly within the final conclusion statement.\nClutter algebraic operational lines with descriptive units.\n\n\nIsolated Variables\nConclude expressions with the isolated variable on the left-hand side (e.g., \\(x = 12\\)).\nLeave arithmetic expressions hanging without a matching left side."
+  },
+  {
+    "objectID": "style.html#pathway-specific-operational-expectations",
+    "href": "style.html#pathway-specific-operational-expectations",
+    "title": "OBFUSCATE Math Solution Style Guide",
+    "section": "6. Pathway-Specific Operational Expectations",
+    "text": "6. Pathway-Specific Operational Expectations\n\nGrade 9 De-streamed (MTH1W) & Grade 10 Academic (MPM2D)\nStudents are expected to show foundational equations explicitly. When using inverse operations to isolate a variable, showing balancing steps on both sides is encouraged in early Grade 9, but must naturally transition to clean algebraic transitions by the conclusion of Grade 10.\n\n\nGrades 11 & 12 Senior Pathways (MCR3U, MCV4U, MDM4U)\nStrict functional notation is expected. Writing generic “\\(y =\\)” variables will be replaced in most cases with clear function assignments like \\(f(x)\\) or \\(g(x)\\).\n\n\n\n\n\n\nImportantCalculus (MCV4U) Specific Notation Rule\n\n\n\nDistinct notation differentiating the base function \\(f(x)\\), the first derivative \\(f'(x)\\), and the secondary derivative \\(f''(x)\\) is expected on every single progressive row of optimizations, limits, or curve-sketching proofs. Leibniz’s notation may be used depending on your instructor."
+  },
+  {
+    "objectID": "MTH1W/index.html#course-outline",
+    "href": "MTH1W/index.html#course-outline",
+    "title": "MTH1W",
+    "section": "Course Outline",
+    "text": "Course Outline\n\nCycle 1: How do we Represent ideas?\n\nLesson 1-0\nLesson 1-1\nLesson 1-2: This is a Course about Algebra",
+    "crumbs": [
+      "MTH1W"
+    ]
   }
 ]
